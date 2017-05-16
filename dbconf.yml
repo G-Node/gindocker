@@ -1,0 +1,2 @@
+driver: postgres
+open: host=ginpgres dbname=gin_auth user=test password=test sslmode=disable

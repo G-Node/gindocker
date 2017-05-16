@@ -1,0 +1,26 @@
+- UUID: 8b14d6bb-cae7-4163-bbd1-f3be46e43e31
+  Name: gin
+  Secret: 123
+  ScopeProvided:
+    account-create: Create an account
+    account-read: Read access to your account data
+    account-write: Write access to your account data
+    account-admin: Administrator access to accounts
+    repo-read: Read access to your repositories and repositories shared with you
+    repo-write: Write access to your repositories and repositories you have write access to
+  ScopeWhitelist:
+    - account-create
+    - account-read
+    - account-write
+    - repo-read
+    - repo-write
+  ScopeBlacklist:
+    - account-admin
+  RedirectURIs:
+    - http://localhost:8080/oauth/login
+    - http://localhost:8080
+- UUID: 5b2ca112-0ecc-41ff-8315-221024345ab8
+  Name: gin-shell
+  Secret: 123
+  ScopeWhitelist:
+    - account-admin

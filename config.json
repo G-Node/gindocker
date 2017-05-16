@@ -1,0 +1,10 @@
+{
+  "auth_url": "http://localhost:8081",
+  "repo_url": "http://localhost:8082",
+  "doi_example": "/dl/cloudberry.yml",
+  "doid_url": "http://doid.gin.g-node.org",
+  "client_dl": "https://web.gin.g-node.org/release/",
+  "client_id": "gin",
+  "client_secret": "123",
+  "contact_email": "dev@example.com"
+}
