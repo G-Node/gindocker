@@ -47,7 +47,7 @@ RUN chown -R git:git /data
 
 WORKDIR /data
 ADD ./ /conf
-RUN ln -s /conf/config.json /ui/src/js/config.json
+RUN ln -sf /conf/config.json /ui/src/js/config.json
 VOLUME /data
 VOLUME /conf
 
